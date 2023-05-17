@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kontaktný formulár</title>
+  <style>
+    /* CSS pre vašu webovú stránku */
+  </style>
+</head>
+<body>
+  <h1>Kontaktný formulár</h1>
+  <form method="post" action="testphp.php">
+    <label for="meno">Meno:</label>
+    <input type="text" name="meno" required><br>
+
+    <label for="priezvisko">Priezvisko:</label>
+    <input type="text" name="priezvisko" required><br>
+
+    <label for="tel_cislo">Tel. číslo:</label>
+    <input type="tel" name="tel_cislo" required><br>
+
+    <label for="mail">E-mail:</label>
+    <input type="email" name="mail" required><br>
+
+    <label for="sprava">Správa:</label><br>
+    <textarea name="sprava" required></textarea><br>
+
+    <input type="submit" name="submit" value="Odoslať">
+  </form>
+</body>
+</html>
